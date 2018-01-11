@@ -82,7 +82,6 @@
 (check-expect (overlap?  5  5 10 10 -10 -10 20 20) #true)
 
 
-#| @author ibarland@radford.edu    @version 2017-oct-22
 License: CC-BY 4.0 -- you are free to share and adapt this file
 for any purpose, provided you include appropriate attribution.
     https://creativecommons.org/licenses/by/4.0/ 
