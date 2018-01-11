@@ -81,7 +81,7 @@
 (check-expect (overlap?  5  5 10 10  -4 -4  2  2) #false)
 (check-expect (overlap?  5  5 10 10 -10 -10 20 20) #true)
 
-
+#|
 License: CC-BY 4.0 -- you are free to share and adapt this file
 for any purpose, provided you include appropriate attribution.
     https://creativecommons.org/licenses/by/4.0/ 
@@ -364,10 +364,10 @@ Including a link to the *original* file satisifies "appropriate attribution".
                                       601
                                       400
                                       "right"))
-#|(check-expect (frog-handle-key f0 k4) (make-frog
+#;(check-expect (frog-handle-key f0 k4) (make-frog
                                       (frog-pos-x f0)
                                       (frog-pos-y f0)
-                                      "right"))|#
+                                      "right"))
 
 ; frog-handle-key : frog, key-event -> frog
 ; Returns a frog with a pos-face that is equal to the key-event
